@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amplitune - Discover New Music</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">AMPLITUNE</a>
+                
+                <div class="search-container">
+                    <form class="d-flex">
+                        <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn search-btn" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="nav-buttons">
+                    <a href="#" class="login-btn">LOG IN</a>
+                    <a href="#" class="register-btn">REGISTER</a>
+                    <button class="settings-btn">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container main-container">
+            <!-- Hero Section -->
+            <section class="hero-section mb-5">
+                <div class="hero-content">
+                    <h1>Discover New Artists</h1>
+                    <div class="hero-image-container">
+                        <img src="https://via.placeholder.com/800x400" alt="Discover new artists" class="img-fluid hero-image">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- New Releases Section -->
+            <section class="section-container mb-5">
+                <h2 class="section-title">New Releases</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Release 1 -->
+                    <div class="col">
+                        <div class="card release-card">
+                            <div class="card-img-wrapper">
+                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Marillag">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Marillag</h5>
+                                <p class="card-text">Maria Sanchez</p>
+                                <p class="card-text release-date">March 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Release 2 -->
+                    <div class="col">
+                        <div class="card release-card">
+                            <div class="card-img-wrapper">
+                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Handsmith">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Handsmith</h5>
+                                <p class="card-text">Jessica Silva</p>
+                                <p class="card-text release-date">February 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Release 3 -->
+                    <div class="col">
+                        <div class="card release-card">
+                            <div class="card-img-wrapper">
+                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Telescope">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Telescope</h5>
+                                <p class="card-text">Nathan Kim</p>
+                                <p class="card-text release-date">February 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- New Artists Section -->
+            <section class="section-container mb-5">
+                <h2 class="section-title">New Artists</h2>
+                <div class="row justify-content-center">
+                    <!-- Artist 1 -->
+                    <div class="col-6 col-md-4 artist-col">
+                        <a href="artist1.html" class="artist-link">
+                            <div class="artist-circle">
+                                <img src="images/gempfp.png" alt="Gem Largo" class="artist-image">
+                                <div class="artist-overlay">
+                                    <div class="artist-info">
+                                        <h3>TokiPal</h3>
+                                        <p class="artist-genre-tag">Pop</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="artist-name text-center mt-2">Gem Largo</h4>
+                        </a>
+                    </div>
+                    <!-- Artist 2 -->
+                    <div class="col-6 col-md-4 artist-col">
+                        <a href="artist2.html" class="artist-link">
+                            <div class="artist-circle">
+                                <img src="https://via.placeholder.com/150" alt="Kew Garcia" class="artist-image">
+                                <div class="artist-overlay">
+                                    <div class="artist-info">
+                                        <h3>Kew Garcia</h3>
+                                        <p class="artist-genre-tag">R&B</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="artist-name text-center mt-2">Kew Garcia</h4>
+                        </a>
+                    </div>
+                    <!-- Artist 3 -->
+                    <div class="col-6 col-md-4 artist-col">
+                        <a href="artist3.html" class="artist-link">
+                            <div class="artist-circle">
+                                <img src="https://via.placeholder.com/150" alt="The Benson Collective" class="artist-image">
+                                <div class="artist-overlay">
+                                    <div class="artist-info">
+                                        <h3>The Benson Collective</h3>
+                                        <p class="artist-genre-tag">Alternative Indie</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="artist-name text-center mt-2">The Benson Collective</h4>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Genre Section -->
+            <section class="section-container mb-5">
+                <h2 class="section-title">Genre</h2>
+                <div class="row justify-content-center">
+                    <!-- Genre 1 -->
+                    <div class="col-6 col-md-4 genre-col">
+                        <div class="genre-circle">
+                            <img src="https://via.placeholder.com/150" alt="Funk Pop" class="genre-image">
+                            <div class="genre-overlay">
+                                <div class="genre-info">
+                                    <h3>Funk Pop</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="genre-name text-center mt-2">Funk Pop</h4>
+                    </div>
+                    <!-- Genre 2 -->
+                    <div class="col-6 col-md-4 genre-col">
+                        <div class="genre-circle">
+                            <img src="https://via.placeholder.com/150" alt="K-Pop" class="genre-image">
+                            <div class="genre-overlay">
+                                <div class="genre-info">
+                                    <h3>K-Pop</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="genre-name text-center mt-2">K-Pop</h4>
+                    </div>
+                    <!-- Genre 3 -->
+                    <div class="col-6 col-md-4 genre-col">
+                        <div class="genre-circle">
+                            <img src="https://via.placeholder.com/150" alt="Alternative Indie" class="genre-image">
+                            <div class="genre-overlay">
+                                <div class="genre-info">
+                                    <h3>Alternative Indie</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="genre-name text-center mt-2">Alternative Indie</h4>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Posts Section -->
+            <section class="section-container mb-5">
+                <h2 class="section-title">Posts</h2>
+                <!-- Post 1 -->
+                <div class="post-card mb-4">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <img src="https://via.placeholder.com/40" alt="Syd Hartha" class="post-user-image">
+                            <div class="post-user-info">
+                                <h5 class="post-user-name">Syd Hartha</h5>
+                                <p class="post-date">November 24, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p class="post-text">"Crushed!!!" out now! ✨ A little nervous to put this song out as it's my most nostalgic release yet. Special thanks to my collaborators who made this track what it is. Link in bio! #newmusic #SydHartha</p>
+                        <div class="post-image-container">
+                            <img src="https://via.placeholder.com/500" alt="Post image" class="post-image img-fluid">
+                        </div>
+                    </div>
+                    <div class="post-actions">
+                        <button class="post-action-btn"><i class="far fa-heart"></i> Like</button>
+                        <button class="post-action-btn"><i class="far fa-comment"></i> Comment</button>
+                        <button class="post-action-btn"><i class="fas fa-share"></i> Share</button>
+                    </div>
+                </div>
+                <!-- Post 2 -->
+                <div class="post-card mb-4">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <img src="https://via.placeholder.com/40" alt="MusicVibes" class="post-user-image">
+                            <div class="post-user-info">
+                                <h5 class="post-user-name">MusicVibes</h5>
+                                <p class="post-date">November 22, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p class="post-text">Check out these awesome indie band stickers we found at the festival last weekend! Which ones do you recognize? #musicfestival #bandmerch #indiemusic</p>
+                        <div class="post-image-container">
+                            <img src="https://via.placeholder.com/500" alt="Post image" class="post-image img-fluid">
+                        </div>
+                    </div>
+                    <div class="post-actions">
+                        <button class="post-action-btn"><i class="far fa-heart"></i> Like</button>
+                        <button class="post-action-btn"><i class="far fa-comment"></i> Comment</button>
+                        <button class="post-action-btn"><i class="fas fa-share"></i> Share</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer class="mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Amplitune</h5>
+                    <p>Discover new music and connect with artists you love.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-spotify"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2025 Amplitune. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gem Largo | Amplitune</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">AMPLITUNE</a>
+                
+                <div class="search-container">
+                    <form class="d-flex">
+                        <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn search-btn" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="nav-buttons">
+                    <a href="#" class="login-btn">LOG IN</a>
+                    <a href="#" class="register-btn">REGISTER</a>
+                    <button class="settings-btn">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container main-container">
+            <!-- Artist Header -->
+            <section class="artist-header-section mb-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="artist-profile-image-container">
+                            <img src="images/gempfp.png" alt="Gem Largo" class="artist-profile-image">
+                        </div>
+                        <!-- Social Media Links -->
+                        <div class="artist-social-links mt-4 text-center">
+                            <a href="https://instagram.com/tokipal_official" class="social-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/GemLargo" class="social-link" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://open.spotify.com/artist/GemLargo" class="social-link" target="_blank">
+                                <i class="fab fa-spotify"></i>
+                            </a>
+                            <a href="https://youtube.com/GemLargo" class="social-link" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="artist-profile-info">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h1 class="artist-profile-name">Gem Largo</h1>
+                                <span class="artist-location"><i class="fas fa-map-marker-alt"></i> Imus, Cavite Phillipines </span>
+                            </div>
+                            <p class="artist-profile-genre">Pop</p>
+                            <div class="artist-stats">
+                                <div class="stat-item">
+                                    <span class="stat-value">125K</span>
+                                    <span class="stat-label">Followers</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">48</span>
+                                    <span class="stat-label">Tracks</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">5</span>
+                                    <span class="stat-label">Albums</span>
+                                </div>
+                            </div>
+                            <div class="artist-buttons mt-4">
+                                <button class="btn btn-follow"><i class="fas fa-user-plus"></i> Follow</button>
+                                <button class="btn btn-share"><i class="fas fa-share"></i> Share</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Artist Bio -->
+            <section class="section-container mb-5">
+                <h2 class="section-title">Biography</h2>
+                <div class="artist-bio-content">
+                    <p>Gem Largo is a rising star in the Pop music scene, known for energetic performances and catchy melodies. Their unique blend of electronic and acoustic sounds has garnered a loyal following across the globe.</p>
+                </div>
+            </section>
+            
+            <!-- Discography -->
+            <section class="section-container mb-5">
+                <h2 class="section-title">Discography</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Album 1 -->
+                    <div class="col">
+                        <div class="card release-card">
+                            <div class="card-img-wrapper">
+                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Dreamscape">
+                                <div class="release-type-badge">Album</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dreamscape</h5>
+                                <p class="card-text">TokiPal</p>
+                                <p class="card-text release-date">2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single -->
+                    <div class="col">
+                        <div class="card release-card">
+                            <div class="card-img-wrapper">
+                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Midnight Echo">
+                                <div class="release-type-badge">Single</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Midnight Echo</h5>
+                                <p class="card-text">TokiPal</p>
+                                <p class="card-text release-date">2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- EP -->
+                    <div class="col">
+                        <div class="card release-card">
+                            <div class="card-img-wrapper">
+                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Neon Streets">
+                                <div class="release-type-badge">EP</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Neon Streets</h5>
+                                <p class="card-text">TokiPal</p>
+                                <p class="card-text release-date">2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Upcoming Events -->
+            <section class="section-container mb-5">
+                <h2 class="section-title">Upcoming Events</h2>
+                <div class="events-container">
+                    <!-- Event 1 -->
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="event-month">APR</span>
+                            <span class="event-day">15</span>
+                        </div>
+                        <div class="event-details">
+                            <h4 class="event-title">Live at Metro Concert Hall</h4>
+                            <p class="event-location">New York, NY</p>
+                        </div>
+                        <div class="event-actions">
+                            <button class="btn btn-tickets">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <!-- Event 2 -->
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="event-month">MAY</span>
+                            <span class="event-day">22</span>
+                        </div>
+                        <div class="event-details">
+                            <h4 class="event-title">Summer Music Festival</h4>
+                            <p class="event-location">Los Angeles, CA</p>
+                        </div>
+                        <div class="event-actions">
+                            <button class="btn btn-tickets">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <!-- Event 3 -->
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="event-month">JUN</span>
+                            <span class="event-day">10</span>
+                        </div>
+                        <div class="event-details">
+                            <h4 class="event-title">World Tour 2025</h4>
+                            <p class="event-location">Chicago, IL</p>
+                        </div>
+                        <div class="event-actions">
+                            <button class="btn btn-tickets">Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Artist Posts -->
+            <section class="section-container mb-5">
+                <h2 class="section-title">Latest Updates</h2>
+                <!-- Post 1 -->
+                <div class="post-card mb-4">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <img src="https://via.placeholder.com/150" alt="TokiPal" class="post-user-image">
+                            <div class="post-user-info">
+                                <h5 class="post-user-name">TokiPal</h5>
+                                <p class="post-date">March 10, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p class="post-text">Just wrapped up our new music video! Can't wait to share it with all of you next week. Stay tuned! #NewMusicVideo #ComingSoon</p>
+                        <div class="post-image-container">
+                            <img src="https://via.placeholder.com/500" alt="Post image" class="post-image img-fluid">
+                        </div>
+                    </div>
+                    <div class="post-actions">
+                        <button class="post-action-btn"><i class="far fa-heart"></i> Like</button>
+                        <button class="post-action-btn"><i class="far fa-comment"></i> Comment</button>
+                        <button class="post-action-btn"><i class="fas fa-share"></i> Share</button>
+                    </div>
+                </div>
+                <!-- Post 2 -->
+                <div class="post-card mb-4">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <img src="https://via.placeholder.com/150" alt="TokiPal" class="post-user-image">
+                            <div class="post-user-info">
+                                <h5 class="post-user-name">TokiPal</h5>
+                                <p class="post-date">February 28, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p class="post-text">Amazing night at the Echo! Thank you all for coming out and making it so special. These moments with you are everything. ❤️ #LiveMusic #TourLife</p>
+                        <div class="post-image-container">
+                            <img src="https://via.placeholder.com/500" alt="Post image" class="post-image img-fluid">
+                        </div>
+                    </div>
+                    <div class="post-actions">
+                        <button class="post-action-btn"><i class="far fa-heart"></i> Like</button>
+                        <button class="post-action-btn"><i class="far fa-comment"></i> Comment</button>
+                        <button class="post-action-btn"><i class="fas fa-share"></i> Share</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Gallery -->
+            <section class="section-container mb-5">
+                <h2 class="section-title">Gallery</h2>
+                <div class="row gallery-row">
+                    <!-- Gallery image 1 -->
+                    <div class="col-6 col-md-3 gallery-col">
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/300" alt="Gallery image" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery image 2 -->
+                    <div class="col-6 col-md-3 gallery-col">
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/300" alt="Gallery image" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery image 3 -->
+                    <div class="col-6 col-md-3 gallery-col">
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/300" alt="Gallery image" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery image 4 -->
+                    <div class="col-6 col-md-3 gallery-col">
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/300" alt="Gallery image" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer class="mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Amplitune</h5>
+                    <p>Discover new music and connect with artists you love.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-spotify"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2025 Amplitune. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
